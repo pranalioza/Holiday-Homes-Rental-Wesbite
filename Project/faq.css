@@ -1,0 +1,55 @@
+
+body { font-size: 90%; line-height: 1; background: lightblue; margin: 55px 0px; padding-bottom: 65px;
+	}
+
+#Topic{
+	font-size: 30px;
+	}
+
+h1 { font-family: 'Paprika', Tahoma, Arial, sans-serif; 
+	font-size: 45px; 
+	line-height: 55px; 
+	margin-bottom: 10px; 
+	font-weight: normal; 
+	color: #6c635e;
+	}
+	
+h2 { font-size: 30px; 
+	font-style: italic; 
+	color: #778657;
+	margin-bottom: 2px;
+	}
+		
+h3 { font-size: 23px; 
+	}
+
+
+p { font-size: 19px; line-height: 25px;
+	margin-bottom: 15px; 
+	}
+
+a { color: #1565ba; 
+	text-decoration: none; 
+	}
+
+a:hover { text-decoration: underline; } 
+
+/* wrapper div */
+#w { 
+display: block; 
+margin: 0 auto; 
+padding: 18px 25px;
+min-width: 400px; 
+max-width: 900px; 
+background: #fff; 
+border-radius: 4px; 
+box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* question containers */
+.q { display: block; max-width: 1000px; margin-bottom: 16px; }
+
+.qhead { margin-bottom: 3px; }
+.qhead a:hover { text-decoration: none; color: #428ddc; border-bottom: 4px solid #c4d3ee; }
+
+.answer { display: none; }

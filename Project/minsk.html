@@ -1,0 +1,305 @@
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style>
+            /* SLIDER */
+#slider
+{
+	display: block;
+	width:400%;
+	height: 72vh;
+	background-color: lightblue;
+	margin-top: 0;
+}
+
+.slider-arrows{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	margin: 0 16px;
+	padding: 11px 0;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 48px;
+	top:50%;
+	margin-top: -26px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-align: center;
+}
+
+.slider-arrows:hover{
+	background-color: rgba(0,0,0,0.8)
+}
+
+.slider-arrows span{
+	color: #fff;
+	font-size: 22px;
+}
+
+#left-arrow{
+	left:16px;
+}
+
+#right-arrow{
+	right:16px;
+}
+
+.slides-wrapper{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #008080;
+}
+#text
+{
+  margin:0px !important;
+  word-wrap:break-word !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size:32px !important;
+  font-weight:800 !important;
+  line-height:1.125em !important;
+  color:#484848 !important;
+  padding-top:6px !important;
+  padding-bottom:6px !important;
+}
+#spa
+{
+  margin-bottom: 20px;
+}
+.st
+{
+    
+    margin-left: 200px;
+}
+.heading_style
+{
+	
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:600 !important;
+	line-height:1.375em !important;
+	color:#484848 !important;
+	margin-top: 40px;
+
+}
+.inside_style
+{
+	
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:1.375em !important;
+	color:#484848 !important;
+	margin-top: 40px;
+
+}
+hr {
+    height: 1px;
+	color: #484848;
+    width: 500px;
+	margin-left: 10px;
+	border-top: 1px solid #dfcccc;
+
+}
+.style_font
+{
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:1.375em !important;
+
+}
+.img-hover-zoom {
+  height: 400px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  padding-left: 50px;
+  padding-right: 3px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+.img-hover-zoom1
+{
+	margin-left: 900px;
+	margin-top:-400px;
+}
+.img-hover-zoom1 {
+  height: 1100px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom1 img {
+  transition: transform .2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom1:hover img {
+  transform: scale(1.1);
+}
+.img-hover-zoom2
+{
+   margin-top: -900;
+    margin-left: 900px;
+    padding-top: 3px;
+}
+.img-hover-zoom2 img {
+  transition: transform .2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom2:hover img {
+  transform: scale(1.1);
+}
+
+div.sticky {
+	margin-top: 520px;
+	margin-left:970px;
+	margin-bottom: 200px;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  position: fixed;
+  padding: 50px;
+  font-size: 20px;
+  width: 500px;
+  height: 900px;
+  border-style: solid;
+  border-width: 0.5px;
+  padding-bottom: 100px;
+  
+}
+.price_style
+{
+	margin-top: -30px;
+	font-weight:800 !important;
+	color:#222222 !important;
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:18px !important;
+	line-height:24px !important;
+	margin-left:-30px;
+}
+.rev{
+	line-height: 1.33333em !important;
+	font-size: 14px !important;
+	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+	margin: 0px !important;
+}
+.hea{
+	margin-top: 100px;
+}
+</style>            
+    </head>
+<body>  
+	<div class="hea">
+	<div class="img-hover-zoom">
+			<img src="vermont.jpg" width="900px" height="400px">
+	</div>
+	
+	<div class="img-hover-zoom1">
+			<img src="ban2.jpg" width="500px" height="200px">
+	</div>
+	<div class="img-hover-zoom2">
+			<img src="lon1.jpg" width="500px" height="195px">
+	</div>
+</div>
+	<!--<div class="img-hover-zoom2">
+			<img src="par1.jpg" width="900px" height="700px">
+	</div>-->
+    <div id="spa" class="st">
+		<div>
+			<h1>
+		  		<span class="text">Luxurious stone villa in Crete</span>
+		 	</h1>
+	  	</div>
+	  	<div>
+			<span class="heading_style">Cave</span><br>
+			<span class="inside_style">
+			2 guests
+			1 bedroom
+			1 bed
+			1 bathroom
+		</span><br><br>
+		<span class="heading_style">
+				Evangelia is a Superhost
+		</span><br>
+		<span class="inside_style">
+				Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.
+		</span><br><br>
+		<span class="heading_style">
+				Great location
+		</span><br>
+		<span class="inside_style">
+				100% of recent guests gave the location a 5-star rating.
+		</span><br><br>
+		<span class="heading_style">
+				Sparkling clean
+		</span><br>
+		<span class="inside_style" style="padding-top: 14px;">
+				17 recent guests said this place was sparkling clean.
+		</span><br>
+		  </div>
+		  <hr>
+		<div>
+			<span class="style_font">Apartment situated below the fortress Spanjola with the central<br> position and view on the beautiful Hvar harbour and Pakleni islands!</span>
+		</div>
+		<hr>
+		<div>
+				<span class="heading_style">
+						The space
+				</span><br>
+				<span class="style_font">
+						Spend a unforgettable holiday in the enchanting surroundings of the town of Cisternino (reachable<br> from the near airports of Bari and Brindisi).
+						Trullo Edera offers a heaven of peace and tranquillity,<br> set in an elevated position with a stunning view.<br>
+						It's the perfect place if you like nature. You can stay under an olive tree reading a good book, you <br>can have a walk in the small country streets or go to the nearest beaches.<br>
+						You can even easily visit any of the sights in Apulia such as the caves of Castellana, the trulli<br> of Alberobello, the baroque cities of Lecce and Martina Franca, the excavations of Egnazia, the zoosafari<br> of Fasano, Castel del Monte with Frederick's castle, Grottaglie famous for its ceramics,<br> Taranto, Brindisi and Lecce museums.
+
+				</span>
+			</div>
+			<hr>
+	</div>
+	<div class="sticky">
+			<div class="price_style">₹20,242<span style="color: dimgray;">per night</span></div>
+			<div class="_14hveccc" aria-hidden="true"><span class="rev">(236 reviews)</span></div>
+			<div style="margin-top: 16px; margin-bottom: 16px;"><div class="line"></div></div>
+			<div class="date">Add dates for exact pricing</div>
+
+</div>
+</div>
+	<div style="width:400px;">
+		shakshi
+	</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

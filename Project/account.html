@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            
+    <style>
+        .name{
+            margin-top:100px;
+            margin-bottom: 56px;
+            margin-left: 60px;
+            
+        }
+        .name1
+        {
+            margin: 0px !important;
+            font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+            font-size:32px !important;
+            font-weight:700 !important;
+            line-height:1.125em !important;
+            color:#484848 !important;
+            word-wrap:break-word !important;
+        }
+        .box1
+        {
+            margin-left: 100px;
+            height:150px;
+            width:350px;
+            border: 0.8px solid;
+            border-radius: 5px;
+            box-shadow: 2px 3px 3px 2px #f0d3d3;
+            padding-top: 80px;
+            padding-left: 20px;
+
+        }
+        .b2{
+            margin-top: -230px;
+            margin-left: 200px;
+        }
+        
+        .b3{
+            margin-top: 70px;
+        }
+        .ins
+{ 
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: rgb(72, 72, 72) !important;
+  margin-top:30px;
+  margin-left: 30px;
+}
+.right {
+    margin-left: 8px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+i {
+  border: solid black;
+  border-width: 0px 2px 2px 0px;
+  display: inline-block;
+  padding: 6px;
+}
+.sent
+{
+    margin:0px !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size:16px !important;
+    font-weight:400 !important;
+    line-height:1.375em !important;
+    color:#484848 !important;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+#arrow{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  #arrow:hover{
+	padding-right: 24px;
+	padding-left:0px;
+  }
+  
+  #arrow:hover:after {
+	opacity: 1;
+	right: 10px;
+  }
+  #myimage {
+    filter: brightness(10%);
+    opacity: .9;
+}
+    </style>
+    <script>
+        $('#btn').click(function() {
+    $('#wizard').toggle();
+});
+    </script>
+    </head>    
+    <body >
+     <div class="name">
+         <div class="name1">Account Settings</div>
+     </div>  
+     <a href="profile.html"> 
+     <div id="arrow">
+     <div class="box1">
+            
+         <span class="ins">
+   Personal Info<i class="right"></i>
+</span>
+<div class="sent">Provide personal details and how we can reach you</div>
+     </div>
+    </div>
+</a>
+    <div id="arrow">
+     <div class="box1 b2">
+            <span class="ins">
+                   Login & Security<i class="right"></i>
+                 </span>
+                 <div class="sent">Update your password and secure your account</div>
+     </div></div>
+     <div id="arrow">
+    <div class="box1 b3">
+            <span class="ins">
+                  Payments & payouts<i class="right"></i>
+                 </span>
+                 <div class="sent">Review payments, payouts, coupons, gift cards, and taxes</div>
+    </div></div>
+
+                        </body>                
+    </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+.right {
+    margin-left: 8px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+i {
+  border: solid black;
+  border-width: 0px 2px 2px 0px;
+  display: inline-block;
+  padding: 4px;
+}
+a {
+    text-decoration: none !important;
+}
+.pro
+{
+    margin-top: 140px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size:16px !important;
+    font-weight:600 !important;
+    line-height:1.2857142857142858em !important;
+    color:#484848 !important;
+
+}
+.ic
+{
+            margin-top: 20px;
+            margin-left: 150px;
+            padding-bottom: 30px;
+            font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+            font-size:32px !important;
+            font-weight:600 !important;
+            line-height:1.125em !important;
+            color:#484848 !important;
+            word-wrap:break-word !important;
+      
+}
+.p1
+{
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size:16px !important;
+    font-weight:600 !important;
+    line-height:1.2857142857142858em !important;
+    color:#484848 !important;
+
+}
+hr{
+    width: 600px;
+    margin-left: 150px;
+}
+input {
+  width: 15%;
+  height:30px;
+}
+#id1
+{
+    margin-top:8px;
+    margin-left: 150px;
+}
+#id1
+{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:1.375em !important;
+}
+#id2
+{
+    margin-top:8px;
+    margin-left: 150px;
+}
+#id2
+{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:1.375em !important;
+}
+
+#id3
+{
+    margin-top:8px;
+    margin-left: 150px;
+}
+#id3
+{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:1.375em !important;
+}
+
+.btn1
+{
+    color: #ffffff !important;
+    font-family: var(--font-button-font-family, Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif) !important;
+    display: inline-block !important;
+    position: relative !important;
+    text-align: center !important;
+    transition-property: background, border-color, color !important;
+    transition-duration: 0.2s !important;
+    transition-timing-function: ease-out !important;
+    width: auto !important;
+    cursor: pointer !important;
+    background: rgb(0, 132, 137) !important;
+    text-decoration: none !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    height: 30px;
+}
+            </style>
+    </head>
+    <body>
+            <script type="text/javascript">
+                function toggle_visibility(id) {
+                    var e = document.getElementById(id);
+                    if(e.style.display == 'none')
+                       e.style.display = 'block';
+                    else
+                       e.style.display = 'none';
+                }
+             </script>
+        <div class="pro">
+            <a href="account.html"><div>Account settings </a><i class="right"></i><span>  &nbsp; &nbsp; Personal info</span></div>
+        </div>
+        <div class="ic">
+                Personal info
+        </div>
+        <div class="p1">
+                Legal name
+        <span style="margin-left: 470px;">
+                <a href='javascript:;' onclick="toggle_visibility('id1');"> Edit</a></span></div>
+       <div id="id1" style="display: none;">
+    First Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;Last name<br>
+    <br><input type="text" name="fname" >&nbsp; &nbsp; &nbsp;<input type="texts" name="fname">
+    <br><br><button class="btn1">Save</button>
+    </div>
+
+        <hr>
+
+        <div class="p1">
+                Gender
+                <span style="margin-left: 505px;">
+                        <a href='javascript:;' onclick="toggle_visibility('id2');"> Edit</a>
+                </span>        
+        </div>
+        <div id="id2" style="display: none;">
+                <p>Please select your gender:</p>
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>  
+
+                <br><br><button class="btn1">Save</button>
+                </div>
+            
+        <hr>
+        <div class="p1">
+                Date of birth
+                <span style="margin-left: 470px;">
+                        <a href='javascript:;' onclick="toggle_visibility('id3');">Edit</a>
+                </span>        
+            </div>
+            <div id="id4" style="display: none;">shakshi</div>
+        <hr>
+        <div class="p1">
+                Email address
+                <span style="margin-left: 455px;">
+                        <a href="#">Edit</a>
+                </span>
+        </div>
+        <hr>
+        
+        <div class="p1">
+                Address
+                <span style="margin-left: 500px;">
+                        <a href="#">Edit</a>
+                </span>
+        </div>
+        <hr>
+    </body>
+</html>

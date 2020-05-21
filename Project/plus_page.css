@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #484848;
+}
+
+p{
+	font-size: 16px;
+
+}
+
+a:link{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+a:visited {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,li{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{
+	list-style-type:none;
+}
+
+/*TOP-NAV CSS*/
+.top-nav{
+	position: static;
+	width: 100% ;
+	height: auto;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.logo:link{
+	color:#484848;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+
+.logo:visited{
+	color: #484848;
+}
+
+.logo:hover{
+	background-color: #f1f1f1;
+}
+
+.logo img{
+	position: relative;
+	padding: 12px 25px;
+	width: 100px;
+	border-right: 1px solid #ccc;
+	vertical-align: middle;
+
+}
+
+/* NAV-SEARCH CSS */
+
+#search-bar{
+	width: 490px;
+	height: 100%;
+	display: inline-block;
+	margin-left: 0;
+}
+
+#search-bar form input{
+	height: 25px;
+	padding: 22px 10px 18px 52px;
+	width: 100%;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	box-sizing: border-box;
+	background-image: url('search.jpg');
+	background-repeat: no-repeat;
+	background-position: 25px;
+	background-size: 18px;
+}
+
+#search-bar form input::-webkit-input-placeholder {
+	color: #666;
+}	
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.top-nav ul{
+	float: right;
+	padding: 24px 0;
+	box-sizing: 
+
+}
+
+.top-nav ul li{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.top-nav ul li a:link{
+	color: #484848;
+	font-size: 14px; 
+	text-decoration: none;
+
+}
+
+.top-nav ul li a:visited{
+	color: #484848;
+	text-decoration: none;
+}
+.top ul li a:hover{
+	color: #484848;
+	text-decoration: none;
+}
+
+
+/* 2nd NAV BAR*/
+ul.topnav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav2 li {float: left;}
+
+ul.topnav2 li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav2 li a:hover {background-color: #f5f0e1;}
+
+
+
+
+/* PLUS */
+
+#plus_logo1{
+	
+	max-height: 1000px;
+	height: auto;
+	width: 100%;
+
+}
+
+
+.intro_airbnb_plus_img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#center_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	max-width: 280px;
+	font-size: 18px;
+	margin: auto;
+}

@@ -1,0 +1,147 @@
+/*PDEM STARTS*/
+#intro_airbnb_plus{
+	padding-top: 2px;
+    padding-bottom: 2px;
+	margin-left: 50px;
+	letter-spacing: normal;
+	line-height: 22px;
+	margin-left: 10px;	
+}
+
+
+#intro_text1{
+	line-height: 30px !important;
+	font-weight:800 !important;
+	font-size:24px !important;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	color:#484848 !important;
+	margin-left: 80px;
+		
+}
+#intro_text2{
+margin-bottom:0px;
+margin-left: 80px;
+}
+#plus_img{
+	margin: auto;	
+}
+
+/*PDEM ENDS*/
+
+span
+{
+  cursor: pointer;
+}
+img
+{
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+#pli
+{
+    margin-left: 60px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+#pli1
+{
+  width: 280px;
+  padding: 0px;
+  height:250px;
+  border: 1px solid gray;
+  margin-left:60px ;
+}
+#pli2
+{
+  width: 280px;
+  padding: 0px;
+  height:250px;
+  border: 1px solid gray;
+  margin-left:430px ;
+  margin-top: -252px;
+}
+#pli3
+{
+  width: 280px;
+  padding: 0px;
+  height:250px;
+  border: 1px solid gray;
+  margin-left:810px ;
+  margin-top: -252px;
+}
+#pli4
+{
+  width: 280px;
+  padding: 0px;
+  height:250px;
+  border: 1px solid gray;
+  margin-left:1170px ;
+  margin-top: -252px;
+}
+#int
+{
+    margin-left: 60px;
+	margin-top: 160px;
+	margin-bottom: 20px;
+}
+#int1
+{
+  width: 280px;
+  padding: 0px;
+  height:250px;
+  border: 1px solid gray;
+  margin-left:60px ;
+}
+#int2
+{
+  width: 280px;
+  padding: 0px;
+  height:230px;
+  border: 1px solid gray;
+  margin-left:430px ;
+  margin-top: -250px;
+}
+#int3
+{
+  width: 280px;
+  padding: 0px;
+  height:230px;
+  border: 1px solid gray;
+  margin-left:810px ;
+  margin-top: -230px;
+}
+#int4
+{
+  width: 280px;
+  padding: 0px;
+  height:230px;
+  border: 1px solid gray;
+  margin-left:1170px ;
+  margin-top: -232px;
+}
+.out
+{
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1.33333em !important;
+  margin-bottom: 80px;
+}
+.ins
+{ 
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: rgb(72, 72, 72) !important;
+  margin-top:20px;
+
+}
+.price_style
+{
+	margin-top: 10px;
+	font-weight:800 !important;
+	color:#222222 !important;
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size:18px !important;
+	line-height:24px !important;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="footer.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="footer_button">Terms & Conditions, Contact Us & More </button>
+
+<!-- The Modal -->
+<div id="modal" class="modal">
+		<footer class="footer-main">
+
+		<span class="close">&times;</span>
+			<div class="footer-left">
+          <img src="stayinn.jpg">
+				<h3>Stay<span>Inn</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">StayInn Plus</a>
+					|
+					<a href="#">Contact Us</a>
+					|
+					<a href="#">FAQ</a>
+					|
+					<a href="#">Terms & Conditions</a>
+				</p>
+
+				<p class="footer-company-name">© 2019 StayInn Inc.</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>P. G. Kher Marg, (32nd Road), TPS-III
+						 Off Linking Road,</span>
+						 Bandra (W), Mumbai - 400050</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 9768889889</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@stayinn.com">support@stayinn.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					StayInn’s mission is to create a world where people can belong through healthy travel that is local, authentic, diverse, inclusive and sustainable</p>
+				<div class="footer-icons">
+					<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("modal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("footer_button");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
